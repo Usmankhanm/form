@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example Form</title>
+</head>
+<body>
+  <h1>Example Form</h1>
+  
+  <form action="/submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Page</title>
+</head>
+<body>
+  <h1>Form Page</h1>
+
+  <form>
+    <h2>Radio Buttons</h2>
+    <label>
+      <input type="radio" name="radioOption" value="option1">
+      Option 1
+    </label><br>
+    <label>
+      <input type="radio" name="radioOption" value="option2">
+      Option 2
+    </label><br>
+    <label>
+      <input type="radio" name="radioOption" value="option3">
+      Option 3
+    </label><br>
+
+    <h2>Checkboxes</h2>
+    <label>
+      <input type="checkbox" name="checkboxOption1" value="option1">
+      Option 1
+    </label><br>
+    <label>
+      <input type="checkbox" name="checkboxOption2" value="option2">
+      Option 2
+    </label><br>
+    <label>
+      <input type="checkbox" name="checkboxOption3" value="option3">
+      Option 3
+    </label><br>
+
+    <h2>Input Button</h2>
+    <label>
+      Enter your name:
+      <input type="text" name="name" placeholder="Your name">
+    </label><br>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
